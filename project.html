@@ -28,23 +28,29 @@
 <legend ><i>Enter the job location and job description below:-</i></legend>
 <b><label>
 Job location:
-<input type="text" id="country" required>
+<input type="text" id="location" placeholder = "Location" required>
 </label>
 <label>
 Job description:
-<input type="jobs" id="jobs" required>
+<input type="jobs" id="description" placeholder = "Description" required>
 </label>
 </b>
 <br>
-<button text-align:"center" class="btn info">Find jobs</button>
+<button text-align:"center" class="btn info" onclick = 'findjobs()'>Find jobs</button>
 </fieldset>
 		    </div>
 		    
 		</div>
 	</div>
+    <div id="message">
+
+    </div>
+
+    <div class="result" id="result">
+        <h1 class="text-center">Enter valid location, job description and hit Find Jobs button</h1>            
+    </div>
 
 
-
-<script src="file.js"></script>
+<script src="scripts.js"></script>
 </body>
 </html>
